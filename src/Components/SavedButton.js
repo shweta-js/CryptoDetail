@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import "./SavedButton.css";
-import Data from "../SaveDataModel"
+
 import axios from 'axios';
-// https://immense-fortress-76085.herokuapp.com
+
 function Button(value) {
     
     var [viewButton, setViewButton]=useState(true)
@@ -12,7 +12,7 @@ function Button(value) {
             setViewButton(false);
             axios({
                 method: 'delete',
-                url: `https://immense-fortress-76085.herokuapp.com/${value.value.name}`,
+                url: ` https://morning-coast-89466.herokuapp.com/${value.value.name}`,
                 headers: {}, 
                 data: {
                   name:value.value.name, 

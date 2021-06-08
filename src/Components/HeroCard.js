@@ -1,6 +1,6 @@
 
 import './HeroCard.css';
-import fb from "../Assets/FB.png"
+
 function HeroCard({name,value,image}) {
   return (
     <div className="HeroCard">
