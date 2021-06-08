@@ -1,0 +1,15 @@
+.pagination{
+
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+.page-item{
+    
+    margin:1rem;
+    color:black;
+}
+.page-item>a{
+    color:black;
+}

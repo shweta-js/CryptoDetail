@@ -1,0 +1,11 @@
+
+.delete-btn{
+    background-color: blue;
+    border-radius: 10px;
+    color:#fff;
+    width:100px;
+    height: 40px;
+    border:none;
+    font-size:1rem;
+    font-weight: bold;
+}
