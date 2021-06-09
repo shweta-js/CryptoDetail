@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Coin from "./Coin";
 import "./Posts.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Posts = ({ coins }) => {
   const [search, setSearch] = useState('');
@@ -20,7 +20,7 @@ const Posts = ({ coins }) => {
         <h1 className='coin-text'>Search a currency</h1>
        
         <div className="input-icons">
-        <FontAwesomeIcon className="search-icon" icon={faSearch} />
+//         <FontAwesomeIcon className="search-icon" icon={faSearch} />
         <input 
         
         onChange={handleChange}
